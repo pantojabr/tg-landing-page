@@ -63,5 +63,5 @@
     }
     else {
         sleep(3);
-        header('Location: user-login.html?err=99');
+        header('Location: /login/?err=99');
     }

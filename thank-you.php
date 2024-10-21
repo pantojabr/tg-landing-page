@@ -52,7 +52,7 @@ html{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}@-web
 <p class="p319 f436">Access The Gate:</p>
 </div>
 <div class="v601 ps818 s892 c466 z515">
-<a href="user-login.html" class="a22 f437">Login</a>
+<a href="/login/" class="a22 f437">Login</a>
 </div>
 </div>
 </div>
