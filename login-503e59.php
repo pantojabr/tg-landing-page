@@ -50,7 +50,7 @@
         }
         else {
             unset($_SESSION['user_redirect_attempt']);
-            $homeURL = 'index.html';
+            $homeURL = 'https://gateinvesting.com/';
             $homeURLs = array();
             foreach($_SESSION['user_groups'] as $group) {
                 if(isset($homeURLs[$group])) {
@@ -63,5 +63,5 @@
     }
     else {
         sleep(3);
-        header('Location: user-login.html?err=99');
+        header('Location: login.html?err=99');
     }
